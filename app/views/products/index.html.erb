@@ -1,0 +1,11 @@
+<p>Products</p>
+
+<div id="products">
+    <% @products.each do |product| %>
+        <div class="product">
+            <a herf="/products/<%= product.id %>">
+                <h2><%= product.name %></h2>
+            </a>
+        </div>
+    <% end %>
+</div>
