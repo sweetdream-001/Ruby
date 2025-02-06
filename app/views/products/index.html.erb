@@ -1,9 +1,12 @@
+<h1><%= t ".title" %></h1>
+
 <p>Products</p>
 
+<%= link_to "New Product", new_product_path if authenticated? %>
 <div id="products">
     <% @products.each do |product| %>
         <div class="product">
-            <a herf="/products/<%= product.id %>">
+            <a href="/products/<%= product.id %>">
                 <h2><%= product.name %></h2>
             </a>
         </div>

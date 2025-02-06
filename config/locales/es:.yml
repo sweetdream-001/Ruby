@@ -1,0 +1,9 @@
+es:
+  hello: "Hola mundo"
+  products:
+    index:
+      title: "Productos"
+      description: "Lista de productos"
+    show:
+      title: "Producto"
+      description: "Detalles del producto"

@@ -29,3 +29,10 @@
 
 en:
   hello: "Hello world"
+  products:
+    index:
+      title: "Products"
+      description: "List of products"
+    show:
+      title: "Product"
+      description: "Product details"
